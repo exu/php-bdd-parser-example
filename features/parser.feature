@@ -1,6 +1,6 @@
 Feature: Attachments parser
-    As software developer
-    In order to find duplicate attachments
+    As a software developer
+    In order to find duplicate attachments content
     I must see duplicates ids in separated by space
     character
 
