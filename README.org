@@ -1,0 +1,42 @@
+* Simple file parser created with Behat and PHPSpec
+
+What it should do ? Look at =parser.feature= file in =features/= directory
+
+** Installation
+
+This project is based on composer so you will need it. To
+install composer. I prefer installing composer globally so
+everything what you should do is
+
+#+begin_src sh
+curl -sS https://getcomposer.org/installer | php
+sudo mv composer.phar /usr/local/bin/composer
+#+end_src
+
+Next you should clone repository and run =composer install= command
+to download and resolve all dependencies (composer will do it automatically).
+
+#+begin_src sh
+git clone git@github.com:exu/php-bdd-parser-example.git
+cd php-bdd-parser-example
+composer install
+#+end_src
+
+** Run some tests :)
+
+
+#+begin_src sh
+bin/behat
+#+end_src
+
+#+begin_src sh
+bin/phpspec
+#+end_src
+
+** Bonus
+
+Try to change feature file e.g. with other data in tables
+it will really fail :)
+
+
+** Enjoy!
