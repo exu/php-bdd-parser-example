@@ -30,7 +30,7 @@ bin/behat
 #+end_src
 
 #+begin_src sh
-bin/phpspec
+bin/phpspec --format=pretty
 #+end_src
 
 ** Bonus
