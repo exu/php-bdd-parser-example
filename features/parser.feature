@@ -1,8 +1,10 @@
 Feature: Attachments parser
     As a software developer
     In order to find duplicate attachments content
-    I must see duplicates ids in separated by space
-    character
+    I should see ids of duplicated attachments
+        separated by "space" character
+
+
 
     Scenario: Displaying duplicates from file when duplicates are present
         Given There is file with lines:
