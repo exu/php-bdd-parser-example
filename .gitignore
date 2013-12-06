@@ -2,5 +2,8 @@ vendor/
 bin/behat
 bin/webdriver
 bin/phpspec
+bin/webunit
 *~
 TAGS
+/example_attachments.txt
+/attachments.txt
