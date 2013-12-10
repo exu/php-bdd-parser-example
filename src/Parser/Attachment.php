@@ -4,6 +4,7 @@ namespace Parser;
 class Attachment
 {
     protected $fileName;
+    protected $content;
 
     public function __construct($fileName)
     {
