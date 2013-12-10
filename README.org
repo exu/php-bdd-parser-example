@@ -13,6 +13,8 @@ curl -sS https://getcomposer.org/installer | php
 sudo mv composer.phar /usr/local/bin/composer
 #+end_src
 
+#+RESULTS:
+
 Next you should clone repository and run =composer install= command
 to download and resolve all dependencies (composer will do it automatically).
 
@@ -24,7 +26,6 @@ composer install
 
 ** Run some tests :)
 
-
 #+begin_src sh
 bin/behat
 #+end_src
@@ -32,6 +33,16 @@ bin/behat
 #+begin_src sh
 bin/phpspec --format=pretty
 #+end_src
+
+** Running application
+
+If You want to run parser:
+
+#+begin_src sh
+bin/console parse
+#+end_src
+
+
 
 ** Bonus
 
