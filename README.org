@@ -1,5 +1,9 @@
 * Simple file parser created with Behat and PHPSpec
 
+More details could be found on my Blog entry:
+
+[[http://wysocki.in/programming/2013/12/10/behat-and-phpspec-example/http://wysocki.in/programming/2013/12/10/behat-and-phpspec-example/][Behat and PHPSpec example on simple task]]
+
 What it should do ? Look at =parser.feature= file in =features/= directory
 
 ** Installation
