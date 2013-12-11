@@ -28,7 +28,7 @@ class FeatureContext extends MinkContext
     }
 
     /**
-     * @When /^I run console sctipt$/
+     * @When /^I run console script$/
      */
     public function iRunConsoleSctipt()
     {

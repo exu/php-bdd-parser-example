@@ -19,7 +19,7 @@ Feature: Attachments parser
          | aasksdshfksjdhfkhds |
          | Attachment id: 4    |
          | sfwqus483493u934usf |
-        When I run console sctipt
+        When I run console script
         Then I should see following output
          | output |
          | 1 2    |
